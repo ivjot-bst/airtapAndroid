@@ -26,6 +26,8 @@ An "airtap" is a virtual, intelligent tap, swipe, or key-press triggered by an L
 - Data sharing: Transfer information between apps as part of workflows
 - Persistent context: Maintain understanding throughout multi-step processes
 
+**Empowering intelligent automation for Android**
+
 ## 🔍 Airtap Android Sandbox
 
 `@airtap/android` provides a fully isolated Android Virtual Machine (VM), currently running Android 13 (API 33). This allows your code or LLM agents to stream, inspect, and control the Android environment for mobile tasks.
@@ -145,11 +147,8 @@ await phone.wait(3000);
 - Analyzes products from various shopping apps.
 - Compares prices, features, and reviews with improved contextual awareness.
 - Facilitates purchase decisions based on user preferences.
-- Monitors price trends and advises on the best time to buy.
 
 ### Social Media Management:
-- Evaluates content quality and potential engagement prior to publishing.
-- Tracks competitor actions with contextual insights.
 - Suggests content based on audience data.
 - Implements cross-platform posting strategies.
 
@@ -157,22 +156,18 @@ await phone.wait(3000);
 - Searches across multiple travel sites while considering user preferences.
 - Compares intricate travel choices using various factors.
 - Handles end-to-end booking with inter-app functionality.
-- Observes price fluctuations and recommends optimal booking times.
 
 ### Personal Assistant:
 - Schedules appointments with smart calendar management.
-- Manages finances by understanding spending habits.
 - Organizes tasks with contextual awareness of priorities.
 - Performs complex, adaptive workflows.
 
-## Security and Privacy
+## Best Practices
 
-- Isolated Environments: Each virtual device runs in an isolated container
-- Best Practices:
-  - Store API keys in environment variables
-  - Rotate API keys periodically
-  - Use scoped permissions when possible
-  - Close sandbox instances when done to free resources
+- Store API keys in environment variables
+- Rotate API keys periodically
+- Use scoped permissions when possible
+- Close sandbox instances when done to free resources
 
 ## AirTap Technical Foundation
 
@@ -207,7 +202,6 @@ Error: Could not connect to Android device
 
 - Combine the Android sandbox capabilities to your domain to build fully autonomous mobile agents
 - Browse example projects in the examples/ folder
-- Join our community on Discord
 - Sign up for production access at airtap.ai
 
 ## 📚 API Reference
