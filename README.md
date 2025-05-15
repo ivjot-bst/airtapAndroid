@@ -203,9 +203,3 @@ Error: Could not connect to Android device
 - Combine the Android sandbox capabilities to your domain to build fully autonomous mobile agents
 - Browse example projects in the examples/ folder
 - Sign up for production access at airtap.ai
-
-## 📚 API Reference
-
-For complete API documentation, see the API Reference.
-- Python - https://github.com/ivjot-bst/airtap_android
-- JavaScript - https://github.com/ivjot-bst/airtapAndroid
